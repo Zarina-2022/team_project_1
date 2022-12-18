@@ -45,8 +45,13 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+    transition: all ease 0.5s;
 }
-
+nav ul li a:hover{
+    color: rgb(121, 15, 15);
+    font-size: 18px;
+    font-weight: bold;
+}
 header .menuBars{
     position: absolute;
     top: 0;
@@ -63,6 +68,7 @@ header .menuBars span{
 
 
 /* RESPONSIVE */
+
 @media screen and (max-width: 600px){
     header .menuBars{
         display: flex;
