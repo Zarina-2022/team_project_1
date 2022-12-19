@@ -1,0 +1,158 @@
+:root{
+    --darkgreen:#1FAB89;
+    --green: #62D2A2;
+    --lightgreen: #9DF3C4;
+    --superlightgreen: #D7FBE8;   
+    --blue:  #1C315E;   
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+ ::-webkit-scrollbar-track {
+    background: var(--darkgreen); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #196350; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--superlightgreen); 
+  }
+
+
+/* About Section */
+
+/* ROW - 1 */
+.aboutSection{
+    width: 100%;
+    height: calc(100vh-75px);
+    padding: 50px;
+}
+.aboutInfo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.aboutImg{
+    width: 400px;
+}
+.aboutImg img{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px var(--lightgreen);
+    transition: all ease 2s;
+}
+.aboutImg img:hover{
+    transform: scale(.5);
+    box-shadow: 0px 0px 40px 25px var(--blue);
+
+}
+
+.aboutStaff p{
+    border-radius: 10px;
+    background-color: var(--blue); 
+    box-shadow: 0px 0px 10px 0px var(--darkgreen) ;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: var(--superlightgreen);
+    font-size: 16px;
+    text-shadow: 5px 5px 10px #121e36;
+    line-height: 30px;
+    transition: all ease 0.6s;
+}
+.aboutStaff p:hover{
+    font-weight: bold;
+    color: green; 
+    background: var(--superlightgreen);
+    text-shadow: 5px 5px 10px #121e36;
+} 
+
+/* ROW - 2 */
+
+/* LEFT SIDE */
+.aboutUs{
+    margin: 20px 0px;
+    display: flex;
+    gap: 20px;
+
+}
+.aboutLeft{
+    width: 400px;
+    min-height: 300px;
+    border-radius: 10px;
+    background-color: var(--blue); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--darkgreen);
+}
+.aboutRight{
+    flex: 1;  /* Tum right tarafi kaplar */
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: var(--blue); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--darkgreen);
+}
+.aboutSpan{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    color: var(--superlightgreen);
+    font-size: 20px; 
+    text-shadow: 5px 5px 10px #121e36;
+    transition: all ease 0.6s;
+}
+.aboutSpan:hover{
+    font-size: 22px;
+    font-weight: bold;
+    color: green; 
+    background: var(--superlightgreen);
+    text-shadow: 5px 5px 10px #121e36;
+}
+.aboutItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 15px 0px;
+    padding-left: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--superlightgreen);
+    transition: all ease 0.5s;
+}
+.aboutItem span{
+    text-shadow: 5px 5px 10px #121e36;
+}
+.aboutItem:hover{
+    font-size: 18px;
+    font-weight: bold;
+    color: green; 
+    background: var(--superlightgreen);
+    text-shadow: 5px 5px 10px #121e36;
+}
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE */
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+       <div>
+                    <a href="mailto:flowers@gmail.com" class="aboutItem">
+                        <i class="fa-solid fa-envelopes-bulk"></i>
+                        <span>flowers@gmail.com</span>
+                    </a>       
+                </div>
